@@ -47,7 +47,7 @@ export const Banner = ()=>{
                 <TrackVisibility>
                 {({isVisible})=>
                 <div className={isVisible ? "animated_animated animate__fadeIn":""}>
-                <span className="tagline">Welcome to my Portfolio</span>
+                <span className="tagline">Welcome to my Portfolio !</span>
                 <h1>{`Hi I'm Ruddra Shukla `}<br></br><span className="wrap">&lt;{text}/&gt;</span></h1>
                 <Button variant="outlined" href="https://www.dropbox.com/scl/fi/30fljlr4gzoikjy1ho0g3/Resume.docx?rlkey=rpdz3endtahlwzse2frirwkxd&st=f55sfnbe&dl=0">Download Resume</Button>
                 <Nav.Link href="#connect">
